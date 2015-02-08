@@ -32,7 +32,7 @@ plot(datetime,dataset$Voltage, type = "l", ylab = "Voltage", main = "")
 plot(datetime,dataset$Sub_metering_1, type = "l", xlab = "", ylab = "Energy sub metering", main = "")
 lines(datetime,dataset$Sub_metering_2, col = "red")
 lines(datetime,dataset$Sub_metering_3, col = "blue")
-legend("topright",legend = c("Sub_metering_1","Sub_metering_2","Sub_metering_3"),bty="n",col = c("black","red","blue"),lty=1)
+legend("topright",legend = c("Sub_metering_1","Sub_metering_2","Sub_metering_3"),bty="n",col = c("black","red","blue"),lty=1, cex = 0.95)
 
 # Plot4
 plot(datetime,dataset$Global_reactive_power, type = "l", ylab = "Global_Reactive_power", main = "")

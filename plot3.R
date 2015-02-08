@@ -24,7 +24,7 @@ png(file = "./plot3.png", width = 480, height = 480, units = "px", type="cairo",
 plot(datetime,dataset$Sub_metering_1, type = "l", xlab = "", ylab = "Energy sub metering", main = "")
 lines(datetime,dataset$Sub_metering_2, col = "red")
 lines(datetime,dataset$Sub_metering_3, col = "blue")
-legend("topright",legend = c("Sub_metering_1","Sub_metering_2","Sub_metering_3"),col = c("black","red","blue"),lty=1)
+legend("topright",legend = c("Sub_metering_1","Sub_metering_2","Sub_metering_3"),col = c("black","red","blue"),lty=1, cex = 0.95)
 
 # Close device
 dev.off()
